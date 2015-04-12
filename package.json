@@ -1,0 +1,23 @@
+{
+  "name": "testdrivendude.com",
+  "version": "1.0.0",
+  "description": "Website for testdrivendude",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryzaguy/testdrivendude.com.git"
+  },
+  "keywords": [
+    "testdrivendude.com"
+  ],
+  "author": "bryzaguy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryzaguy/testdrivendude.com/issues"
+  },
+  "homepage": "https://github.com/bryzaguy/testdrivendude.com"
+}
