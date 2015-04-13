@@ -8,4 +8,4 @@ http.createServer(function (req, res) {
     'Content-Type': 'text/plain'
   });
   res.end("Hello Everyone");
-}).listen(80);
+}).listen(process.env.PORT || 3000);
