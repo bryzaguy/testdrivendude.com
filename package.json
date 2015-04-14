@@ -22,5 +22,9 @@
   "homepage": "https://github.com/bryzaguy/testdrivendude.com",
   "devDependencies": {
     "guardianjs": "^0.1.2"
+  },
+  "dependencies": {
+    "hapi": "^8.4.0",
+    "redis": "^0.12.1"
   }
 }
