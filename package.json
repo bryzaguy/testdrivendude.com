@@ -4,7 +4,6 @@
   "description": "Website for testdrivendude",
   "main": "server.js",
   "scripts": {
-    "test": "node test.js",
     "start": "node server.js"
   },
   "repository": {
