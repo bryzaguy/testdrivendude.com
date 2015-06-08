@@ -21,10 +21,17 @@
   },
   "homepage": "https://github.com/bryzaguy/testdrivendude.com",
   "devDependencies": {
-    "guardianjs": "^0.1.2"
+    "babel": "^5.1.9",
+    "babel-core": "^5.1.9",
+    "babel-loader": "^5.0.0",
+    "guardian-runner": "0.0.5",
+    "guardianjs": "^0.1.2",
+    "jsdom": "^4.4.0",
+    "webpack": "^1.8.4"
   },
   "dependencies": {
     "hapi": "^8.4.0",
+    "react": "^0.13.1",
     "redis": "^0.12.1"
   }
 }

@@ -1,7 +1,5 @@
 /* jslint node: true */
 
-//important!!!
-
 'use strict';
 
 var Hapi = require('hapi'),
@@ -20,7 +18,9 @@ server.route({
   method: 'GET',
   path: '/',
   handler: function (request, reply) {
-    reply('Hello, world!' + client.get("superawesomekey"));
+    client.get("superawesomekey", function (e, r) {
+      reply('Hello, world!' + r);
+    });
   }
 });
 
